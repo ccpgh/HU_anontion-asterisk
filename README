@@ -1,3 +1,19 @@
 README
 
 Code from "https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-22.4.0.tar.gz"
+
+wgets 
+
+#libpri
+#RUN wget https://downloads.asterisk.org/pub/telephony/libpri/libpri-current.tar.gz
+
+#dahdi linux
+#RUN wget https://downloads.asterisk.org/pub/telephony/dahdi-linux/dahdi-linux-current.tar.gz
+
+#dahdi tools
+#RUN wget https://downloads.asterisk.org/pub/telephony/dahdi-tools/dahdi-tools-current.tar.gz
+
+#dahdi-complete
+#RUN wget https://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/dahdi-linux-complete-current.tar.gz
+
+RUN wget "https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-22.4.0.tar.gz"
